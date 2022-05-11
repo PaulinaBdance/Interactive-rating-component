@@ -1,0 +1,74 @@
+
+
+*{
+    margin: 0;
+    padding: 0;
+    font-size: 10px;
+    box-sizing: border-box;
+}
+body {
+    background-color: black;
+    font-family: 'Overpass', sans-serif;
+}
+.main__card--how {
+    background-color:hsl(220, 12%, 14%) ;
+    max-width: 375px;
+    margin: 100px;
+    padding: 20px;
+    display: flexbox;
+    /*niewiem czemu nie mogę wycentrować głównej karty za pomocą flex*/
+    justify-content: center;
+    
+    line-height: 2rem;
+}
+h1 {
+    font-size: 2rem;
+    color: hsl(0, 0%, 100%);
+    
+}
+p {
+    font-size: 1.5rem;
+    color: hsl(217, 12%, 63%);
+    line-height: 2rem;
+}
+.round {
+    width: 35px;
+    height: 35px;
+    border-radius: 50px;
+    background-color: hsl(213, 19%, 18%) ;
+    margin-top: 20px ;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.card__how--header{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    line-height: 3rem;
+    text-align: justify;
+/*nieweim jak najlepiej centrować text dokładnie jak w przykładzie*/
+
+}
+.card__how--numbers {
+    display: flex;
+    justify-content: space-around;
+}
+.button {
+    background-color: hsl(25, 97%, 53%) ;
+    height: 35px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    margin-top: 20px;
+    border-radius: 15px;
+    color: white;
+}
+
+.attribution {
+    font-size: 11px;
+    text-align: center;
+  }
+  .attribution a {
+    color: hsl(228, 45%, 44%);
+  }
